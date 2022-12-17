@@ -6,7 +6,7 @@ createApp({
 
         return{
             message: 'Hello Vuejs!',
-            url: 'https://picsum.photos/id/200/300',
+            url: 'https://picsum.photos/400/300',
         }
     }
 })
