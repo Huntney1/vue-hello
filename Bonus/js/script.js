@@ -1,13 +1,16 @@
-const {createApp} = Vue
+const { createApp } = Vue
 
 createApp({
 
-    data(){
+    data() {
 
-        return{
+        return {
             message: 'Hello Vuejs!',
             url: 'https://picsum.photos/400/300',
+            giorno: new Date().getDate(),
+            mese: new Date().getMonth()+1,
+            anno: new Date().getFullYear(),
         }
     }
 })
-.mount('#app')
+    .mount('#app')
